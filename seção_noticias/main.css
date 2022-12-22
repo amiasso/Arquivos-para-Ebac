@@ -1,3 +1,21 @@
-h1 {
-    color: red;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+head li{
+    display: inline;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+articles{
+    display: flex;
+}
+.articles article{
+    height: 180px;
+}
+.articles article{
+    width: 30%;
 }
