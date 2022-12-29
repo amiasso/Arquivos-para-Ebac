@@ -12,6 +12,8 @@ head li{
 }
 articles{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .articles article{
     height: 180px;
